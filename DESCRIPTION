@@ -1,0 +1,12 @@
+Package: qlabtools
+Type: Package
+Title: Quick Lab Tools
+Version: 0.1.0
+Author: perikarya
+Maintainer: perikarya <22440312@student.uwa.edu.au>
+Description: A package for quick laboratory calculations useful for biochemistry & molecular biology experiments.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: webchem
