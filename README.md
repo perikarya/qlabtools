@@ -17,13 +17,15 @@ devtools::install_github("perikarya/qlabtools")
 
 molarity calculation
 
-```calc_mol("potassium chloride", 5, "mg")
+```
+calc_mol("potassium chloride", 5, "mg")
 #> [1] "Number of moles: 6.70690811535882e-05"
 ```
 
 mass calculation
 
-```calc_mass("sodium hydroxide", 3.12, "mmol")
+```
+calc_mass("sodium hydroxide", 3.12, "mmol")
 #> [1] "0.12479064 grams"
 ```
 
