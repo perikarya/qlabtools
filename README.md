@@ -9,9 +9,9 @@ devtools::install_github("perikarya/qlabtools")
 ```
 
 <h1>usage</h1>
-<b>calc_mol(substance, mass, u="g"):</b> calculate the number of moles in a specified mass of a chemical compound by entering the mass & name of the substance. <br><br>
+<b>calc_mol(substance, mass, u="g"):</b> calculate the number of moles in a specified mass of a chemical compound by entering the mass & name of the substance. mass can be specified in g, mg, ug, pg & fg. <br><br>
 
-<b>calc_mass(substance, val, v="mol"):</b> calculate the mass of a chemical compound that will contain the specified number of moles (can provide the value in mol, mmol, umol, pmol & fmol).
+<b>calc_mass(substance, val, u="mol"):</b> calculate the mass of a chemical compound that will contain the specified number of moles (can provide the value in mol, mmol, umol, pmol & fmol).
 
 <h1>examples</h1>
 
