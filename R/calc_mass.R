@@ -17,7 +17,7 @@
 #' @export
 
 calc_mass <- function(substance, val, u="mol"){
-  requireNamespace(webchem)
+  require(webchem)
   if (u=="mmol"){
     val <- val / 1000
   }
