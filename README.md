@@ -31,6 +31,13 @@ calc_mass("sodium hydroxide", 3.12, "mmol")
 #> [1] "0.12479064 grams"
 ```
 
+solution molarity calculation
+
+```
+calc_mass_req("sodium hydroxide", 5, "M", 200, "ml")
+#> [1] "39.997 grams"
+```
+
 <h1>notes</h1>
 
 qlabtools uses <a href="https://github.com/ropensci/webchem">webchem</a> to query the pubchem database for chemical information used in the molarity and mass calculations. more functions will be added in the coming weeks.
