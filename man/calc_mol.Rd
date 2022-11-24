@@ -11,7 +11,7 @@ calc_mol(substance, mass, u = "g")
 
 \item{mass}{The mass.}
 
-\item{u}{The unit, select from "g", "ug", "pg", "fg" with default set to grams}
+\item{u}{The unit, select from "g", "ug","ng", "pg", "fg" with default set to grams}
 }
 \value{
 The number of moles of substance in the specified mass.

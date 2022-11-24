@@ -11,7 +11,7 @@ calc_mass(substance, val, u = "mol")
 
 \item{val}{The number of moles.}
 
-\item{u}{The unit, select from "mol", "umol", "pmol", "fmol" with default set to moles.}
+\item{u}{The unit, select from "mol", "umol", "nmol", "pmol", "fmol" with default set to moles.}
 }
 \value{
 The mass of the substance containing the specified number of moles, in grams.
