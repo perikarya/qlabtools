@@ -2,7 +2,7 @@
 #'
 #' @description Retrieves recommended dilutions for a given antibody from the vendor for all tested application types.
 #'
-#' @param catalogue_number Catalogue number of the antibody, entered as a number.
+#' @param catalogue_number Catalogue number of the antibody.
 #' @examples
 #' 31594
 #'
@@ -32,7 +32,7 @@ spec_table <- product_page %>%
 
 dilutions <- as.data.frame(spec_table[[1]][, 1:2])
 
-dilutions$Applications <- strip(dilutions$Applications, c("(", ")"))
+dilutions$Applications <- strip(dilutions$Applications, c("(", ")", "/"))
 
 print(product_title)
 print(dilutions, row.names = FALSE)
