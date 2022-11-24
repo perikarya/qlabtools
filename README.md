@@ -20,22 +20,34 @@ devtools::install_github("perikarya/qlabtools")
 molarity calculation
 
 ```
-calc_mol("potassium chloride", 5, "mg")
-#> [1] "Number of moles: 6.70690811535882e-05"
+#> calc_mol("potassium chloride", 5, "mg")
+[1] "Number of moles: 6.70690811535882e-05"
 ```
 
 mass calculation
 
 ```
-calc_mass("sodium hydroxide", 3.12, "mmol")
-#> [1] "0.12479064 grams"
+#> calc_mass("sodium hydroxide", 3.12, "mmol")
+[1] "0.12479064 grams"
 ```
 
 solution molarity calculation
 
 ```
-calc_mass_req("sodium hydroxide", 5, "M", 200, "ml")
-#> [1] "39.997 grams"
+#> calc_mass_req("sodium hydroxide", 5, "M", 200, "ml")
+[1] "39.997 grams"
+```
+
+antibody dilution finder
+
+```
+#> find_dilutions_thermo(331594, "primary")
+[1] "Occludin Monoclonal Antibody (OC-3F10), Alexa Fluor™ 594"
+                Applications Tested Dilution
+           western blot (wb)     0.1-1 µg/mL
+  immunohistochemistry (ihc)               -
+ immunocytochemistry (iccif)     2.5-5 µg/mL
+               elisa (elisa)     0.1-1 µg/mL
 ```
 
 <h1>notes</h1>
